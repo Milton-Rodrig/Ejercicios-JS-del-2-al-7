@@ -1,19 +1,32 @@
-<h1>Ejercicio 4: Uso de operadores logicos y aritmeticos</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejerc-4</title>
+</head>
+<body>
+
+<h1>Ejercicio 4: Operadores</h1>
+
+
 
 <script type="text/javascript">
 var valores = [true, 5, false, "hola", "adios", 2];
 
+alert('valores = [true, 5, false, "hola", "adios", 2];' resultado);
+
 var resultado = valores[3] > valores[4];
-alert(resultado);
+alert('valores[3] > valores[4]; es igual a ' + "\n " + resultado);
 
 var valor1 = valores[0];
 var valor2 = valores[2];
 
 var resultado = valor1 || valor2;
-alert(resultado);
+alert('resultado = valor1 || valor2; es igual a ' + "\n " +  resultado);
 
 resultado = valor1 && valor2;
-alert(resultado);
+alert('valor1 && valor2; es igual a ' + "\n " +  resultado);
 
 
 var numero1 = valores[1];
@@ -34,3 +47,6 @@ alert(division);
 var modulo = numero1 % numero2;
 alert(modulo);
 </script>
+
+</body>
+</html>
