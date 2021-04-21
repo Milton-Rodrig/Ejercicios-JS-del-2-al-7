@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejerc-7</title>
+</head>
+<body>
+<h1>Ejercicio 7 - Factorial de un número entero</h1>
+
+<script type="text/javascript">
+var numero = prompt("Escriba un numero");
+var resultado = 1;
+
+for(var i=1; i<=numero; i++) {
+  resultado *= i;
+}
+alert("El factorial del número es" + resultado);
+</script>
+</body>
+</html>
