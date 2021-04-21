@@ -11,7 +11,7 @@
 <script type="text/javascript">
 var letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T'];
 
-var numero = prompt("Escriba su DNI (numeros sin la Letra)");
+var numero = prompt("Escriba su DNI (numero sin la Letra)");
 var letra = prompt("Escriba la letra de su DNI");
 letra = letra.toUpperCase();
 
@@ -24,7 +24,7 @@ else {
     alert("El numero y letra, no son correctos");
   }
   else {
-    alert("El numero y letra del DNI son correctos");
+    alert("El numero  "+ numero + "  y letra "+ letra + " del DNI son correctos");
   }
 }
 
